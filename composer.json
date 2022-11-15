@@ -1,0 +1,17 @@
+{
+    "name": "wira/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "BelajarPhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "muhammadkusuma",
+            "email": "mwiraadekusuma1@gmail.com"
+        }
+    ],
+    "require": {}
+}
