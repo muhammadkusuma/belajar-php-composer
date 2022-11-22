@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "021c6ce3521cbcdb3afd00cc6914776b",
+    "content-hash": "f0321e645fc3d9fbb719ff2c22ab661b",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -106,6 +106,42 @@
                 }
             ],
             "time": "2022-07-24T12:00:55+00:00"
+        },
+        {
+            "name": "progammerzamannow/belajar-php-composer-hello",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/muhammadkusuma/belajar-php-composer-hello.git",
+                "reference": "81efea66456e866abf6ad6fb23778b6f23c32fe3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/muhammadkusuma/belajar-php-composer-hello/zipball/81efea66456e866abf6ad6fb23778b6f23c32fe3",
+                "reference": "81efea66456e866abf6ad6fb23778b6f23c32fe3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ProgrammerZamanNow\\Belajar\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "muhammadkusuma",
+                    "email": "mwiraadekusuma1@gmail.com"
+                }
+            ],
+            "description": "Libary Composer Hello",
+            "support": {
+                "source": "https://github.com/muhammadkusuma/belajar-php-composer-hello/tree/1.0.0",
+                "issues": "https://github.com/muhammadkusuma/belajar-php-composer-hello/issues"
+            },
+            "time": "2022-11-16T07:16:48+00:00"
         },
         {
             "name": "psr/log",

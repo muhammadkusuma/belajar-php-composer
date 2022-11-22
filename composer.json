@@ -13,7 +13,14 @@
             "email": "mwiraadekusuma1@gmail.com"
         }
     ],
+    "repositories":[
+        {
+            "type":"vcs",
+            "url":"https://github.com/muhammadkusuma/belajar-php-composer-hello"
+        }
+    ],
     "require": {
+        "progammerzamannow/belajar-php-composer-hello":"1.0.0",
         "monolog/monolog": "3.2.0"
     }
 }
